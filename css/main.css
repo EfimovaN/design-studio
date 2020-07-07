@@ -8,9 +8,12 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #000000;
-  
 
   background-color: #ffffff;
+}
+
+.none {
+  display: none;
 }
 
 .visually-hidden {
@@ -281,9 +284,55 @@ html {box-sizing: border-box;
   width: 240px;
 }
 
+/* Products */
 
+.products {
+  margin: 0;
+  margin-top: 80px;
+  padding: 0 20px;
+}
 
+.products-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
 
+.products-item {
+  box-sizing: border-box;
+  min-width: 300px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+}
 
+.products-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 23px;
+  margin-bottom: 18px;
+}
+
+.products-item p {
+  width: 255px;
+}
+
+.products-item .button {
+  width: 160px;
+  margin-top: 32px;
+}
+
+.btn-app {background-color: #00ca74;}
+
+.btn-app:hover,
+.btn-app:focus {background-color: #00bc6c;}
+.btn-app:active {background-color: #00aa62;}
+
+.btn-present {background-color: #efc84a;}
+
+.btn-present:hover,
+.btn-present:focus {background-color: #eab534;}
+.btn-present:active {background-color: #e5a722;}
 
 
