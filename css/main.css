@@ -335,4 +335,101 @@ html {box-sizing: border-box;
 .btn-present:focus {background-color: #eab534;}
 .btn-present:active {background-color: #e5a722;}
 
+/* Features */
 
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 50px 20px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.features-left {
+  margin: 0;
+  padding: 0;
+  width: 660px;
+}
+
+.features-right {
+  padding-top: 10px;
+  width: 360px;
+}
+
+.features-slogan {
+  margin-bottom: 32px;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.features-orders {
+  margin-top: 40px;
+  margin-bottom: 23px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.order-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.order-item { 
+  margin-bottom: 24px;
+}
+
+.order-item::before { 
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+  margin-top: -2px;
+  width: 24px;
+  height: 2px;
+  background-color:  #fb565a;
+}
+
+.indicators-title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.indicators-list {
+  display: flex;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0; 
+  list-style: none;
+}
+
+.indicators-list li {
+  max-width: 105px;
+  margin-right: 15px;
+}
+
+.indicator-value {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.indicator-percent {
+  position: relative;
+  top: -10px;
+  left: -3px;
+  vertical-align: top;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.indicators-list p {
+  line-height: 18px;
+  margin-top: 20px;
+}
