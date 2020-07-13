@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,12 +11,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <a class="header-logo" href="#">
-        <img src="/img/svg/nerds-logo.svg" width="160" height="65" alt="Логотип Nerds">
-      </a>
-      <nav class="main-navigation">
+  
+  <header class="header">
+    <nav class="main-navigation">
+      <div class="container">
+        <a class="header-logo" href="#">
+          <img src="/img/svg/nerds-logo.svg" width="160" height="65" alt="Логотип Nerds">
+        </a>
         <ul class="site-navigation">
           <li>
             <a href="#">Студия</a>
@@ -35,12 +37,14 @@
             <a href="#">Корзина</a>
           </li>
         </ul>
-      </nav>
-      <h1 class="visually-hidden">Дизайн-студия «Нёрдс» г. Краснодар</h1>
-    </header>
+      </div>
+    </nav>
+    <h1 class="visually-hidden">Дизайн-студия «Нёрдс» г. Краснодар</h1>
+  </header>
 
-    <main>
-      <section class="slider">
+  <main>
+    <section class="slider">
+      <div class="container">
         <h2 class="visually-hidden">Преимущества</h2>
         <input class="visually-hidden product-1" type="radio" id="product-1" name="toggle" checked>
         <input class="visually-hidden product-2" type="radio" id="product-2" name="toggle">
@@ -67,9 +71,11 @@
             <a class="slider-item-button button" href="#">Узнать больше</a>
           </li>
         </ul>  
-      </section>
+      </div>
+    </section>
 
-      <section class="products">
+    <section class="products">
+      <div class="container">
         <h2 class="visually-hidden">Наши продукты</h2>
         <ul class="products-list">
           <li class="products-item">
@@ -97,9 +103,11 @@
             <a class="button btn-present" href="catalog.html">Заказать</a>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <section class="features">
+    <section class="features">
+      <div class="container">
         <h2 class="visually-hidden">Описание услуг студии</h2>
         <div class="features-left">
           <p class="features-slogan">
@@ -148,9 +156,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="portfolio">
+    <section class="portfolio">
+      <div class="container">
         <h2 class="visually-hidden">Портфолио дизайн-студии Nerds</h2>
         <ul class="portfolio-list">
           <li class="portfolio-item">
@@ -174,22 +184,84 @@
             </a>  
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <section>
-      </section>
+    <footer class="footer">
+      <div class="map-google" id="map"></div>
+      <div class="container">
+        <div class="contacts">
+          <h2 class="contacts-title">
+            NЁRDS DESIGN STUDIO
+          </h2>  
+          <p class="contacts-address">
+            191186, Санкт-Петербург,<br>
+            ул. Б. Конюшенная, д. 19/8
+          </p>
+          <p class="contacts-phone">тел: +7 (812) 275-75-75</p>
+          <a class="button write-us" href="index.html">Напишите нам</a>
+        </div>
+        <div class="social-wrapper">
+          <ul class="social-list">
+            <li class="social-item">
+              <a aria-label="social button vk" class="social-button" href="#">
+                <img class="vk-icon" src="img/svg/vk-icon.svg" width="26" height="15" alt="Вконтакте">
+              </a>
+            </li>
+            <li class="social-item">
+              <a aria-label="social button fb" class="social-button" href="#">
+                <img class="fb-icon" src="img/svg/fb-icon.svg" width="12" height="22" alt="Фейсбук">
+              </a>
+            </li>
+            <li class="social-item">
+              <a aria-label="social button insta" class="social-button" href="#">
+                <img class="insta-icon" src="img/svg/insta-icon.svg" width="21" height="21" alt="Инстаграм">
+              </a>
+            </li>
+          </ul>
+          <div class="social-text">
+            <p class="social-slogan">
+              Давайте дружить, это выгодно!
+            </p>
+            <p class="social-sale">
+              Скидка 10% для друзей из социальных сетей.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <section class="modal">
+        <h2 class="visually-hidden">Форма обратной связи</h2>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset class="modal-feedback">
+            <legend>Напишите нам:</legend>
+            <button class="modal-close" type="button">Закрыть</button>
+            <div class="input-wrapper">
+              <p>
+                <label for="user-name">Ваше имя:</label>
+                <input class="input-name" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+              </p>
+              <p>
+                <label for="user-email">Ваш e-mail:</label>
+                <input class="input-email" id="user-email" type="text" name="email" placeholder="email@example.com">
+              </p>
+              <p>
+                <label for="user-text">Текст письма:</label>
+                <textarea class="user-text" rows="3" id="user-text" name="text" placeholder="В свободной форме"></textarea>
+              </p>
+            </div>
+            <button class="button button-feedback" type="submit">
+              Отправить
+            </button>
+          </fieldset>
+        </form>
+      </section> -->
+    </footer>
 
 
 
 
 
-    </main>
+  </main>
 
-
-
-
-
-  </div>
-  
 </body>
 </html>
