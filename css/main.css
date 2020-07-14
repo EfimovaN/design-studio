@@ -142,7 +142,7 @@ html {box-sizing: border-box;
   font: inherit;
   color: #000000;
   
-  background-image: url("/img/svg/cart-icon.svg");
+  background-image: url("../img/svg/cart-icon.svg");
   background-position: 0% 10%;
   background-repeat: no-repeat;
 
@@ -216,19 +216,19 @@ html {box-sizing: border-box;
 }
 
 .slider-item:nth-child(1) {
-  background-image: url("/img/slide-1.png");
+  background-image: url("../img/slide-1.png");
   background-repeat: no-repeat;
   background-position: 93% 0;
 }
 
 .slider-item:nth-child(2) {
-  background-image: url("/img/slide-2.png");
+  background-image: url("../img/slide-2.png");
   background-repeat: no-repeat;
   background-position: 100% 0;
 }
 
 .slider-item:nth-child(3) {
-  background-image: url("/img/slide-3.png");
+  background-image: url("../img/slide-3.png");
   background-repeat: no-repeat;
   background-position: 100% 20px;
 }
@@ -497,8 +497,8 @@ html {box-sizing: border-box;
 
 .footer {
   position: relative;
-  background: url(/img/map-marker.png) 63% 11% no-repeat,
-              url(/img/map.jpg) top center no-repeat;
+  background: url("../img/map-marker.png") 63% 11% no-repeat,
+              url("../img/map.jpg") top center no-repeat;
 }
 
 .map-google {
